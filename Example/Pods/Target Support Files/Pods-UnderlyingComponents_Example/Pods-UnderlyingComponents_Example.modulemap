@@ -1,0 +1,6 @@
+framework module Pods_UnderlyingComponents_Example {
+  umbrella header "Pods-UnderlyingComponents_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
