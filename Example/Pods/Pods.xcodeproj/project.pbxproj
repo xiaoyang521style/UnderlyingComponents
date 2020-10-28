@@ -12,8 +12,6 @@
 		1350D02857A12BD1B88776C54938616B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		18E7EF5A2549318700F40E8E /* UIColor+ZYHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E7EF582549318700F40E8E /* UIColor+ZYHex.h */; };
-		18E7EF5B2549318700F40E8E /* UIColor+ZYHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7EF592549318700F40E8E /* UIColor+ZYHex.m */; };
 		20EA2B939717EDF6E053BAF84E52C8B7 /* Pods-UnderlyingComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9223409A6D5C6B9DA6BFC54AEDE51DC3 /* Pods-UnderlyingComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2448303C35912671EFDB24388C92308D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		27E90543C6325A2743DB11CFB746DED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
@@ -73,8 +71,6 @@
 		0C44AEBDACA8DC5167F95EF91FE258FE /* Pods-UnderlyingComponents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnderlyingComponents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		18CBBD3F76AB99ACA2AB41453DDB6FB5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UnderlyingComponents/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		18E7EF582549318700F40E8E /* UIColor+ZYHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIColor+ZYHex.h"; path = "../../../../Documents/UIColor+ZYHex.h"; sourceTree = "<group>"; };
-		18E7EF592549318700F40E8E /* UIColor+ZYHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ZYHex.m"; path = "../../../../Documents/UIColor+ZYHex.m"; sourceTree = "<group>"; };
 		1A2F768B84D97AF2B13E328AA8633802 /* Pods-UnderlyingComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnderlyingComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		1C2680924B8425ED6D0B001C779B3F9E /* Pods-UnderlyingComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnderlyingComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -168,13 +164,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18E7EF43254930B800F40E8E /* Color */ = {
+		18E7EF682549338700F40E8E /* Color */ = {
 			isa = PBXGroup;
 			children = (
-				18E7EF582549318700F40E8E /* UIColor+ZYHex.h */,
-				18E7EF592549318700F40E8E /* UIColor+ZYHex.m */,
 			);
-			path = Color;
+			name = Color;
+			path = UnderlyingComponents/Classes/Color;
 			sourceTree = "<group>";
 		};
 		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
@@ -303,7 +298,7 @@
 		A00812CB4EDCA8BA6F06956DB6B73517 /* UnderlyingComponents */ = {
 			isa = PBXGroup;
 			children = (
-				18E7EF43254930B800F40E8E /* Color */,
+				18E7EF682549338700F40E8E /* Color */,
 				18CBBD3F76AB99ACA2AB41453DDB6FB5 /* ReplaceMe.m */,
 				A94E9FCBE223937B0E2AC817D7252D3B /* Pod */,
 				89406A2400D9299E773E4BC8234C05E2 /* Support Files */,
@@ -381,7 +376,6 @@
 				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
 				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
 				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
-				18E7EF5A2549318700F40E8E /* UIColor+ZYHex.h in Headers */,
 				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -580,7 +574,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				18E7EF5B2549318700F40E8E /* UIColor+ZYHex.m in Sources */,
 				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
 				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
 				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
